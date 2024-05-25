@@ -1,3 +1,51 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* HOME-PAGE */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+.container {
+    display: flex; /* Uses flexbox layout to align children side by side */
+}
+
+.left, .right {
+    flex: 1; /* Each child will take up an equal amount of space */
+    padding: 20px; /* Adds space inside the divs */
+}
+
+.left {
+    text-align: left; /* Optional: Aligns text to the left */
+}
+
+.right {
+    text-align: right; /* Optional: Aligns the image to the right */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+}
+
+.right img {
+    max-width: 100%; 
+    height: auto;  
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* BACK-PAGES */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.main-container{
+    display:flex;
+	flex-wrap:wrap;
+	max-width:60rem;
+	margin:2rem auto;
+	padding:1rem;
+}
+
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color:inherit;
@@ -12,7 +60,7 @@ body {
     text-rendering: optimizeLegibility;
 	line-height:1.5;
 	font-size: 1rem;
-	color: rgb(22, 23, 26);
+	color: #000;
 }
 
 nav ul {
@@ -28,6 +76,10 @@ a {
 pre {
 	margin: .5rem 0;
 	padding: .5rem;
+}
+
+.posts {
+    padding: 0;
 }
 
 .post p {
@@ -208,3 +260,6 @@ figcaption {
         display: none !important;
     }
 }
+ns the aspect ratio of the image */
+} 
+*/
