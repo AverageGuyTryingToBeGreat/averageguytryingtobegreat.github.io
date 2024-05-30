@@ -17,7 +17,8 @@ layout: page
         <p>Here are some of my daily thoughts:</p>
         <div class="posts">
             <ul>
-            {% for post in site.daily_thoughts %}
+            {% assign sorted_daily_thoughts = site.daily_thoughts | sort: 'date' | reverse %}
+            {% for post in sorted_daily_thoughts %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
             {% endfor %}
             </ul>
