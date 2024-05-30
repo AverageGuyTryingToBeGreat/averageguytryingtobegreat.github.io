@@ -1,9 +1,13 @@
 links:
 - title: Home
-  url: /
+  url: /index.html
 - title: Writing
   url: /writing.html
-- title: Contact
+- title: Daily thoughts
+  url: /daily-thoughts.html
+- title: Learning notes
+  url: /learning-notes.html
+- title: Search
   url: /search
 - title: Rss
   url: /atom.xml

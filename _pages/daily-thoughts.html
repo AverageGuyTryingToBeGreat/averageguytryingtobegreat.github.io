@@ -14,13 +14,13 @@ layout: page
 
 <body>
     <div class="main-container">
+        <p>Here are some of my daily thoughts:</p>
         <div class="posts">
             <ul>
-            {% for post in site.posts %}
+            {% for post in site.daily_thoughts %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
             {% endfor %}
             </ul>
         </div>
     </div>
 </body>
-

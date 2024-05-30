@@ -43,7 +43,10 @@ collections:
     permalink: /writing/:slug
   learning_notes: 
     output: true
-    permalink: /learning_notes/:slug
+    permalink: /learning-notes/:slug
+  daily_thoughts:
+    output: true
+    permalink: /daily-thoughts/:slug
   
 defaults:
   -
