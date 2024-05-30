@@ -9,6 +9,17 @@ body {
 /* -------------------------------------------------------------------------------------------------------------------------- */
 
 
+.header {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.page-header{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
 .container {
     display: flex; /* Uses flexbox layout to align children side by side */
 }
